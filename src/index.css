@@ -1,0 +1,36 @@
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.leftDiv{
+  width: 20%;
+  font-size: 30px;
+}
+.leftDiv li{
+
+  list-style: none;
+}
+li button{
+  font-size: 20px;
+  background-color: rgba(135, 207, 235, 0.775);
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+}
+li button:hover{
+  background-color: rgb(41, 63, 71);
+  color: white;
+}
+.rightDiv{
+  padding: 20px;
+  width: 80%;
+  font-size: 30px;
+  min-height: 50%;
+}
+
+#content{
+  margin-top: 50px;
+  border: 1px solid black;
+}
